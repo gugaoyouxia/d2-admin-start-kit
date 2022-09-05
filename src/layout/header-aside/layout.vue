@@ -11,7 +11,8 @@
           :class="{'logo-group': true, 'logo-transition': asideTransition}"
           :style="{width: asideCollapse ? asideWidthCollapse : asideWidth}"
           flex-box="0">
-          <img v-if="asideCollapse" :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/icon-only.png`">
+<!--          <img v-if="asideCollapse" :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/icon-only.png`">-->
+          <img v-if="asideCollapse" :src="`https://github.com/gugaoyouxia/d2-admin-start-kit/blob/master/src/views/system/login/image/logo2.png?raw=true`">
 <!--          <img v-else :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/all.png`">&lt;!&ndash;图标&ndash;&gt;-->
           <img v-else :src="`https://github.com/gugaoyouxia/d2-admin-start-kit/blob/master/src/views/system/login/image/WTRLogo2.png?raw=true`"><!--图标-->
         </router-link>

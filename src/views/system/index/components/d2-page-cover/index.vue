@@ -3,7 +3,7 @@
     <div class="d2-page-cover__logo">
       <slot/>
     </div>
-    <p class="d2-page-cover__title">D2 Admin {{$version}}</p>
+<!--    <p class="d2-page-cover__title">D2 Admin {{$version}}</p>-->
     <p class="d2-page-cover__sub-title">测试</p>
     <slot name="footer"/>
   </div>
