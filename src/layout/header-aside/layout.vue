@@ -12,7 +12,8 @@
           :style="{width: asideCollapse ? asideWidthCollapse : asideWidth}"
           flex-box="0">
           <img v-if="asideCollapse" :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/icon-only.png`">
-          <img v-else :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/all.png`">
+<!--          <img v-else :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/all.png`">&lt;!&ndash;图标&ndash;&gt;-->
+          <img v-else :src="`http://localhost:1988/img/WTRLogo.88b4b7dc.png`"><!--图标-->
         </router-link>
         <div class="toggle-aside-btn" @click="handleToggleAside" flex-box="0">
           <d2-icon name="bars"/>
@@ -21,13 +22,13 @@
         <!-- 顶栏右侧 -->
         <div class="d2-header-right" flex-box="0">
           <!-- 如果你只想在开发环境显示这个按钮请添加 v-if="$env === 'development'" -->
-          <d2-header-search @click="handleSearchClick"/>
-          <d2-header-log/>
-          <d2-header-fullscreen/>
+<!--          <d2-header-search @click="handleSearchClick"/>-->
+<!--          <d2-header-log/>-->
+<!--          <d2-header-fullscreen/>-->
           <d2-header-theme/>
-          <d2-header-size/>
-          <d2-header-locales/>
-          <d2-header-color/>
+<!--          <d2-header-size/>-->
+<!--          <d2-header-locales/>-->
+<!--          <d2-header-color/>-->
           <d2-header-user/>
         </div>
       </div>
