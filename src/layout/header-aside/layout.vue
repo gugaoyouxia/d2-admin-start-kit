@@ -13,7 +13,7 @@
           flex-box="0">
           <img v-if="asideCollapse" :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/icon-only.png`">
 <!--          <img v-else :src="`${$baseUrl}image/theme/${themeActiveSetting.name}/logo/all.png`">&lt;!&ndash;图标&ndash;&gt;-->
-          <img v-else :src="`http://localhost:1988/img/WTRLogo.88b4b7dc.png`"><!--图标-->
+          <img v-else :src="`https://github.com/gugaoyouxia/d2-admin-start-kit/blob/master/src/views/system/login/image/WTRLogo.png?raw=true`"><!--图标-->
         </router-link>
         <div class="toggle-aside-btn" @click="handleToggleAside" flex-box="0">
           <d2-icon name="bars"/>
